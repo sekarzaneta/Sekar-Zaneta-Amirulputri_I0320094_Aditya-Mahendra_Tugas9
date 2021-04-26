@@ -1,6 +1,5 @@
 import array
 
-
 # mendefinisikan fungsi untuk mengurutkan elemen array
 def sort(A):
     i = 0
@@ -13,7 +12,6 @@ def sort(A):
                 A[j - 1] = temp
             j -= 1
         i += 1
-
 
 def main():
     A = array.array("i", [50, 10, 30, 40, 20])
